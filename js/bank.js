@@ -9,8 +9,6 @@ document.getElementById('login-submit').addEventListener('click',function(){
     // check user email & password
     if(userEmail == 'shuvo@gmail.com' && userPassword == 'shuvo' ){
         window.location.href = "banking.html";
-    }else{
-        console.log(alert('c'))
     }
     
 })
